@@ -120,7 +120,7 @@ bt_borrar = Button(frame_operaciones, image=bt_bor, width=105, height=105, comma
 bt_borrar.place(x=337, y=7)
 
 # boton para salir - cerrar la app
-bt_sal = PhotoImage(file="img/boton_salir.png")
+bt_sal = PhotoImage(file="gui_01/img/boton_salir.png")
 # bt_salir = Button(frame_operaciones, text="Salir", width=10)
 bt_salir = Button(frame_operaciones, image=bt_sal, width=105, height=105, command=salir)
 bt_salir.place(x=558, y=7)
